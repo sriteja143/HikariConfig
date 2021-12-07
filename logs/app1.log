@@ -1,0 +1,487 @@
+2021-12-02 17:10:17,278 DEBUG com.zaxxer.hikari.HikariConfig [main] Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca
+2021-12-02 17:10:17,882 WARN com.zaxxer.hikari.HikariConfig [main] ConnPool - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2021-12-02 17:10:17,882 WARN com.zaxxer.hikari.HikariConfig [main] ConnPool - idleTimeout is less than 10000ms, setting to default 600000ms.
+2021-12-02 17:10:17,882 DEBUG com.zaxxer.hikari.HikariConfig [main] ConnPool - configuration:
+2021-12-02 17:10:17,884 DEBUG com.zaxxer.hikari.HikariConfig [main] allowPoolSuspension................................false
+2021-12-02 17:10:17,885 DEBUG com.zaxxer.hikari.HikariConfig [main] autoCommit................................true
+2021-12-02 17:10:17,911 DEBUG com.zaxxer.hikari.HikariConfig [main] catalog................................none
+2021-12-02 17:10:17,912 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionInitSql................................none
+2021-12-02 17:10:17,912 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTestQuery................................"select 1 from employee"
+2021-12-02 17:10:17,913 DEBUG com.zaxxer.hikari.HikariConfig [main] connectionTimeout................................50000
+2021-12-02 17:10:17,913 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSource................................none
+2021-12-02 17:10:17,913 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceClassName................................none
+2021-12-02 17:10:17,913 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceJNDI................................none
+2021-12-02 17:10:17,914 DEBUG com.zaxxer.hikari.HikariConfig [main] dataSourceProperties................................{password=<masked>}
+2021-12-02 17:10:17,915 DEBUG com.zaxxer.hikari.HikariConfig [main] driverClassName................................"org.postgresql.Driver"
+2021-12-02 17:10:17,915 DEBUG com.zaxxer.hikari.HikariConfig [main] exceptionOverrideClassName................................none
+2021-12-02 17:10:17,916 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckProperties................................{}
+2021-12-02 17:10:17,917 DEBUG com.zaxxer.hikari.HikariConfig [main] healthCheckRegistry................................none
+2021-12-02 17:10:17,917 DEBUG com.zaxxer.hikari.HikariConfig [main] idleTimeout................................600000
+2021-12-02 17:10:17,917 DEBUG com.zaxxer.hikari.HikariConfig [main] initializationFailTimeout................................1
+2021-12-02 17:10:17,917 DEBUG com.zaxxer.hikari.HikariConfig [main] isolateInternalQueries................................false
+2021-12-02 17:10:17,918 DEBUG com.zaxxer.hikari.HikariConfig [main] jdbcUrl................................jdbc:postgresql://localhost:5432/evoke
+2021-12-02 17:10:17,918 DEBUG com.zaxxer.hikari.HikariConfig [main] keepaliveTime................................0
+2021-12-02 17:10:17,918 DEBUG com.zaxxer.hikari.HikariConfig [main] leakDetectionThreshold................................0
+2021-12-02 17:10:17,919 DEBUG com.zaxxer.hikari.HikariConfig [main] maxLifetime................................1800000
+2021-12-02 17:10:17,919 DEBUG com.zaxxer.hikari.HikariConfig [main] maximumPoolSize................................20
+2021-12-02 17:10:17,919 DEBUG com.zaxxer.hikari.HikariConfig [main] metricRegistry................................none
+2021-12-02 17:10:17,920 DEBUG com.zaxxer.hikari.HikariConfig [main] metricsTrackerFactory................................none
+2021-12-02 17:10:17,920 DEBUG com.zaxxer.hikari.HikariConfig [main] minimumIdle................................1
+2021-12-02 17:10:17,920 DEBUG com.zaxxer.hikari.HikariConfig [main] password................................<masked>
+2021-12-02 17:10:17,920 DEBUG com.zaxxer.hikari.HikariConfig [main] poolName................................"ConnPool"
+2021-12-02 17:10:17,920 DEBUG com.zaxxer.hikari.HikariConfig [main] readOnly................................false
+2021-12-02 17:10:17,921 DEBUG com.zaxxer.hikari.HikariConfig [main] registerMbeans................................false
+2021-12-02 17:10:17,921 DEBUG com.zaxxer.hikari.HikariConfig [main] scheduledExecutor................................none
+2021-12-02 17:10:17,921 DEBUG com.zaxxer.hikari.HikariConfig [main] schema................................none
+2021-12-02 17:10:17,922 DEBUG com.zaxxer.hikari.HikariConfig [main] threadFactory................................internal
+2021-12-02 17:10:17,922 DEBUG com.zaxxer.hikari.HikariConfig [main] transactionIsolation................................default
+2021-12-02 17:10:17,922 DEBUG com.zaxxer.hikari.HikariConfig [main] username................................"postgres"
+2021-12-02 17:10:17,922 DEBUG com.zaxxer.hikari.HikariConfig [main] validationTimeout................................5000
+2021-12-02 17:10:17,922 INFO com.zaxxer.hikari.HikariDataSource [main] ConnPool - Starting...
+2021-12-02 17:10:18,435 DEBUG com.zaxxer.hikari.pool.HikariPool [main] ConnPool - Added connection org.postgresql.jdbc.PgConnection@cf01c2e
+2021-12-02 17:10:18,436 INFO com.zaxxer.hikari.HikariDataSource [main] ConnPool - Start completed.
+2021-12-02 17:10:18,548 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2021-12-02 17:10:18,553 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2021-12-02 17:10:18,727 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool connection adder] ConnPool - Added connection org.postgresql.jdbc.PgConnection@4470e147
+2021-12-02 17:10:18,727 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool connection adder] ConnPool - After adding stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:10:48,568 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:10:48,570 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:10:48,570 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:11:18,582 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:11:18,583 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:11:18,584 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:11:48,590 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:11:48,590 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:11:48,591 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:12:18,605 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:12:18,605 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:12:18,605 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:12:48,619 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:12:48,620 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:12:48,621 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:13:18,624 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:13:18,625 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:13:18,625 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:13:48,639 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:13:48,640 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:13:48,641 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:14:18,646 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:14:18,648 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:14:18,648 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:14:48,653 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:14:48,654 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:14:48,655 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:15:18,671 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:15:18,672 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:15:18,672 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:15:48,685 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:15:48,686 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:15:48,687 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:16:18,693 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:16:18,694 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:16:18,694 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:16:48,699 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:16:48,700 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:16:48,701 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:17:18,703 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:17:18,704 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:17:18,704 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:17:48,718 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:17:48,718 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:17:48,718 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:18:18,728 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:18:18,729 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:18:18,729 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:18:48,741 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:18:48,742 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:18:48,743 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:19:18,756 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:19:18,757 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:19:18,757 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:19:48,771 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:19:48,772 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:19:48,773 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:20:18,788 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2021-12-02 17:20:18,792 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:20:18,792 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:20:18,792 DEBUG com.zaxxer.hikari.pool.PoolBase [ConnPool connection closer] ConnPool - Closing connection org.postgresql.jdbc.PgConnection@4470e147: (connection has passed idleTimeout)
+2021-12-02 17:20:18,794 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool connection closer] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:20:48,800 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:20:48,800 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:20:48,800 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:21:18,806 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:21:18,807 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:21:18,807 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:21:48,823 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:21:48,824 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:21:48,825 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:22:18,838 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:22:18,839 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:22:18,839 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:22:48,853 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:22:48,854 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:22:48,855 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:23:18,857 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:23:18,858 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:23:18,858 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:23:48,864 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:23:48,864 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:23:48,865 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:24:18,868 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:24:18,869 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:24:18,869 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:24:48,872 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:24:48,873 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:24:48,874 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:25:18,879 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:25:18,879 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:25:18,879 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:25:48,895 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:25:48,896 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:25:48,897 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:26:18,903 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:26:18,903 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:26:18,903 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:26:48,910 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:26:48,911 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:26:48,911 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:27:18,919 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:27:18,920 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:27:18,920 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:27:48,928 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:27:48,929 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:27:48,930 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:28:18,936 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:28:18,937 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:28:18,937 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:28:48,947 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:28:48,947 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:28:48,948 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:29:18,956 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:29:18,958 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:29:18,958 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:29:48,964 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:29:48,965 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:29:48,965 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:30:18,975 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:30:18,975 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:30:18,975 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:30:48,989 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:30:48,991 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:30:48,991 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:31:18,996 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:31:18,997 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:31:18,997 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:31:49,000 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:31:49,001 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:31:49,001 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:32:19,005 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:32:19,006 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:32:19,006 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:32:49,014 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:32:49,014 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:32:49,016 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:33:19,029 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:33:19,030 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:33:19,030 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:33:49,042 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:33:49,042 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:33:49,043 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:34:19,053 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:34:19,053 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:34:19,053 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:34:49,059 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:34:49,060 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:34:49,061 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:35:19,066 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:35:19,068 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:35:19,068 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:35:49,069 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:35:49,070 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:35:49,072 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:36:19,086 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:36:19,087 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:36:19,087 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:36:49,093 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:36:49,094 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:36:49,094 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:37:19,100 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:37:19,101 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:37:19,101 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:37:49,117 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:37:49,118 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:37:49,119 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:38:19,120 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:38:19,121 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:38:19,122 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:38:49,124 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:38:49,125 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:38:49,125 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:39:19,130 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:39:19,131 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:39:19,131 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:39:42,196 DEBUG com.zaxxer.hikari.pool.PoolBase [ConnPool connection closer] ConnPool - Closing connection org.postgresql.jdbc.PgConnection@cf01c2e: (connection has passed maxLifetime)
+2021-12-02 17:39:42,413 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool connection adder] ConnPool - Added connection org.postgresql.jdbc.PgConnection@2804bbb4
+2021-12-02 17:39:49,142 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:39:49,143 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:39:49,145 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:40:19,147 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:40:19,148 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:40:19,148 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:40:49,156 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:40:49,157 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:40:49,158 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:41:19,170 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:41:19,171 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:41:19,171 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:41:49,176 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:41:49,177 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:41:49,179 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:42:19,181 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:42:19,182 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:42:19,182 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:42:49,190 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:42:49,191 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:42:49,192 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:43:19,200 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:43:19,202 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:43:19,202 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:43:49,212 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:43:49,212 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:43:49,212 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:44:19,214 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:44:19,214 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:44:19,214 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:44:49,221 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:44:49,222 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:44:49,223 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:45:19,236 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:45:19,237 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:45:19,238 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:45:49,251 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:45:49,251 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:45:49,252 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:46:19,267 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:46:19,268 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:46:19,268 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:46:49,277 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:46:49,277 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:46:49,277 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:47:19,291 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:47:19,293 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:47:19,294 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:47:49,311 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:47:49,312 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:47:49,313 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:48:19,318 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:48:19,320 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:48:19,321 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:48:49,321 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:48:49,322 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:48:49,322 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:49:19,337 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:49:19,338 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:49:19,338 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:49:49,341 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:49:49,342 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:49:49,342 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:50:19,346 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:50:19,346 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:50:19,347 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:50:49,348 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:50:49,349 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:50:49,350 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:51:19,357 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:51:19,358 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:51:19,358 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:51:49,365 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:51:49,366 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:51:49,366 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:52:19,372 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:52:19,373 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:52:19,373 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:52:49,389 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:52:49,389 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:52:49,390 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:53:19,402 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:53:19,403 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:53:19,403 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:53:49,415 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:53:49,416 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:53:49,417 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:54:19,427 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:54:19,428 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:54:19,428 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:54:49,431 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:54:49,431 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:54:49,432 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:55:19,439 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:55:19,440 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:55:19,440 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:55:49,444 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:55:49,445 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:55:49,446 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:56:19,449 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:56:19,450 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:56:19,450 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:56:49,457 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:56:49,457 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:56:49,458 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:57:19,472 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:57:19,472 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:57:19,473 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:57:49,483 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:57:49,484 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:57:49,484 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:58:19,499 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:58:19,500 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:58:19,500 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:58:49,503 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:58:49,504 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:58:49,504 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:59:19,518 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:59:19,519 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:59:19,519 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 17:59:49,526 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:59:49,527 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 17:59:49,528 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:00:19,528 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:00:19,529 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:00:19,529 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:00:49,530 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:00:49,532 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:00:49,532 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:01:19,539 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:01:19,540 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:01:19,540 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:01:49,549 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:01:49,550 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:01:49,550 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:02:19,558 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:02:19,558 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:02:19,558 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:02:49,564 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:02:49,564 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:02:49,565 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:03:19,567 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:03:19,567 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:03:19,567 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:03:49,569 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:03:49,570 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:03:49,570 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:04:19,575 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:04:19,576 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:04:19,576 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:04:49,584 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:04:49,584 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:04:49,585 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:05:19,591 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:05:19,591 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:05:19,591 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:05:49,603 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:05:49,604 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:05:49,605 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:06:19,617 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:06:19,618 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:06:19,618 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:06:49,624 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:06:49,625 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:06:49,625 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:07:19,638 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:07:19,639 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:07:19,639 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:07:49,643 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:07:49,644 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:07:49,645 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:08:19,647 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:08:19,647 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:08:19,647 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:08:49,651 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:08:49,651 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:08:49,652 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:09:19,654 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:09:19,654 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:09:19,654 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:09:22,804 DEBUG com.zaxxer.hikari.pool.PoolBase [ConnPool connection closer] ConnPool - Closing connection org.postgresql.jdbc.PgConnection@2804bbb4: (connection has passed maxLifetime)
+2021-12-02 18:09:22,979 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool connection adder] ConnPool - Added connection org.postgresql.jdbc.PgConnection@143ea1dd
+2021-12-02 18:09:49,669 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:09:49,669 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:09:49,669 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:10:19,673 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:10:19,673 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:10:19,674 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:10:49,686 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:10:49,686 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:10:49,687 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:11:19,690 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:11:19,690 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:11:19,691 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:11:49,698 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:11:49,698 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:11:49,698 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:12:19,712 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:12:19,712 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:12:19,713 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:12:49,725 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:12:49,726 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:12:49,727 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:13:19,737 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:13:19,738 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:13:19,738 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:13:49,748 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:13:49,749 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:13:49,749 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:14:19,764 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:14:19,764 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:14:19,764 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:14:49,777 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:14:49,778 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:14:49,778 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:15:19,794 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:15:19,795 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:15:19,795 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:15:49,811 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:15:49,812 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:15:49,813 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:16:19,817 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:16:19,818 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:16:19,818 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:16:49,824 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:16:49,825 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:16:49,826 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:17:19,832 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:17:19,833 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:17:19,833 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:17:49,848 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:17:49,848 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:17:49,849 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:18:19,860 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:18:19,861 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:18:19,861 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:18:49,864 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:18:49,864 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:18:49,864 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:19:19,879 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:19:19,880 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:19:19,880 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:19:49,889 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:19:49,890 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:19:49,890 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:20:19,891 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:20:19,892 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:20:19,892 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:20:49,901 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:20:49,902 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:20:49,903 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:21:19,906 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:21:19,907 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:21:19,907 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:21:49,912 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:21:49,913 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:21:49,913 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:22:19,916 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:22:19,918 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:22:19,918 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
+2021-12-02 18:22:49,933 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:22:49,934 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-12-02 18:22:49,934 DEBUG com.zaxxer.hikari.pool.HikariPool [ConnPool housekeeper] ConnPool - Fill pool skipped, pool is at sufficient level.
